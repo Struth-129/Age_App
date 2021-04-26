@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#312e"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="176dp"
+        android:layout_height="68dp"
+        android:text="@string/calculate"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/textColor"
+        android:textSize="36sp" />
+    <TextView
+        android:id="@id/textView"
+        android:layout_height="70dp"
+        android:layout_width="200dp"
+        android:textSize="40sp"
+        android:text="@string/in_minutes"
+        />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="10dp"
+        android:layout_width="300px"
+        android:layout_height="108px"
+        android:background="#00DEEA"
+        android:text="@string/age"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:shadowRadius="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="Select Date"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="400dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:text="@string/selected_date"
+        android:textColor="#001200"
+        android:background="@color/textColor"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:text="Age_in_minutes"
+        android:textColor="#001200"
+        android:background="@color/textColor"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        />
+</LinearLayout>
